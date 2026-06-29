@@ -42,7 +42,7 @@ window.addEventListener('load', function () {
             io.unobserve(e.target);
           }
         });
-      }, { threshold: 0.12, rootMargin: '0px 0px -6% 0px' });
+      }, { threshold: 0, rootMargin: '0px 0px -6% 0px' });
       document.querySelectorAll('[data-anim], .reveal-text, .h-reveal').forEach(function (el) {
         io.observe(el);
       });
