@@ -262,6 +262,37 @@ a { color: inherit; text-decoration: none; }
 .impressum { max-width: 720px; margin: 60px auto 0; color: rgba(248,239,230,0.75); font-size: 16px; }
 .impressum h3 { font-family: var(--font-display); color: var(--c-cream); letter-spacing: 2px; text-transform: uppercase; font-size: 24px; }
 
+/* ---------- Legal pages (Datenschutz) ---------- */
+.legal-doc {
+  max-width: 880px; margin: 0 auto;
+  background: var(--c-paper); color: var(--c-ink-soft);
+  border: 1px solid rgba(201,169,97,0.35); box-shadow: var(--shadow-card);
+  padding: 52px clamp(24px, 5vw, 64px) 58px;
+  font-size: 17px; line-height: 1.7;
+}
+.legal-doc h2 {
+  font-family: var(--font-display); font-weight: 600;
+  font-size: 30px; letter-spacing: 2px; text-transform: uppercase;
+  color: var(--c-ink); margin: 52px 0 18px; padding-bottom: 10px;
+  border-bottom: 1px solid rgba(201,169,97,0.5);
+}
+.legal-doc h2:first-child { margin-top: 0; }
+.legal-doc h3 { font-family: var(--font-display); font-weight: 600; font-size: 23px; color: var(--c-wine); margin: 32px 0 8px; }
+.legal-doc h4 { font-family: var(--font-ui); font-size: 13px; letter-spacing: 2px; text-transform: uppercase; color: var(--c-ink); margin: 24px 0 6px; }
+.legal-doc p { margin: 0 0 14px; }
+.legal-doc ul { margin: 0 0 18px; padding-left: 22px; }
+.legal-doc li { margin-bottom: 9px; }
+.legal-doc a { color: var(--c-wine); text-decoration: underline; text-underline-offset: 3px; }
+.legal-doc a:hover { color: var(--c-wine-deep); }
+.legal-address { color: var(--c-ink); font-size: 19px; }
+.legal-caps { font-size: 15px; }
+.legal-source { margin-top: 40px; padding-top: 18px; border-top: 1px solid var(--c-line); font-size: 14px; opacity: 0.7; }
+@media (max-width: 560px) {
+  .legal-doc { font-size: 16px; }
+  .legal-doc h2 { font-size: 25px; }
+  .legal-doc h3 { font-size: 20px; }
+}
+
 /* ---------- Footer ---------- */
 .site-footer { background: var(--c-wine-deep); color: var(--c-cream); padding: 70px 32px 30px; border-top: 1px solid var(--c-gold); }
 .footer-inner { max-width: var(--max); margin: 0 auto; display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap: 40px; padding-bottom: 46px; border-bottom: 1px solid rgba(201,169,97,0.25); }
