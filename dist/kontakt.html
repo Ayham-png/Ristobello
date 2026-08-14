@@ -3,10 +3,12 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Galerie — Ristobello im Clubhaus Vimbuch</title>
-<meta name="description" content="Eindrücke aus dem Ristobello Vimbuch: Pizza, Pasta, Dolci und mediterranes Ambiente im Clubhaus SV Vimbuch." />
-<link rel="stylesheet" href="fonts/fonts.css?v=31" />
-<link rel="stylesheet" href="css/styles.css?v=31" />
+<title>Kontakt — Ristobello im Clubhaus Vimbuch</title>
+<meta name="description" content="Kontakt & Reservierung Ristobello im Clubhaus SV Vimbuch — Am Sportplatz 1, 77815 Bühl-Vimbuch, Tel. +49 7223 8008234." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Cormorant+SC:wght@400;500;600&family=Pinyon+Script&family=Cinzel:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/styles.css?v=30" />
 </head>
 <body>
 <div class="page-bg"></div>
@@ -19,8 +21,8 @@
         <li><a href="index.html">Startseite</a></li>
         <li><a href="ueber-uns.html">Über Uns</a></li>
         <li><a href="speisekarte.html">Speisekarte</a></li>
-        <li><a href="galerie.html" class="active">Galerie</a></li>
-        <li><a href="kontakt.html">Kontakt</a></li>
+        <li><a href="galerie.html">Galerie</a></li>
+        <li><a href="kontakt.html" class="active">Kontakt</a></li>
       </ul>
     </div>
     <a href="index.html" class="nav-brand"><img src="img/logo.png" alt="Ristobello im Clubhaus Vimbuch" class="nav-logo" /></a>
@@ -29,30 +31,60 @@
 </nav>
 
 <section class="page-head">
-  <div class="section-eyebrow reveal">— Galleria —</div>
-  <h2 class="section-title reveal">Galerie</h2>
-  <div class="section-script reveal">momenti di gusto</div>
+  <div class="section-eyebrow reveal">— Vi aspettiamo —</div>
+  <h2 class="section-title reveal">Kontakt</h2>
+  <div class="section-script reveal">a presto!</div>
   <span class="section-divider reveal"></span>
 </section>
 
 <section class="section" style="padding-top:0;">
-  <div class="gallery-grid reveal">
-    <div class="gallery-item" style="background-image:url('img/terrasse-2.jpg');"></div>
-    <div class="gallery-item" style="background-image:url('img/gastraum.jpg');"></div>
-    <div class="gallery-item" style="background-image:url('img/bar.jpg');"></div>
-    <div class="gallery-item" style="background-image:url('img/terrasse-1.jpg');"></div>
-    <div class="gallery-item" style="background-image:url('img/gastraum-mural.jpg');"></div>
-    <div class="gallery-item" style="background-image:url('img/bar-warm.jpg');"></div>
-    <div class="gallery-item" style="background-image:url('img/billard.jpg');"></div>
-    <div class="gallery-item" style="background-image:url('img/schild-chef.jpg');"></div>
-    <div class="gallery-item" style="background-image:url('img/terrasse-3.jpg');"></div>
+  <div class="contact-grid">
+    <div class="panel reveal" style="padding:44px clamp(28px,5vw,52px);">
+      <div class="contact-block">
+        <h4>Adresse</h4>
+        <p style="color:var(--c-ink);">Ristobello im Clubhaus SV Vimbuch<br />Am Sportplatz 1<br />77815 Bühl-Vimbuch</p>
+      </div>
+      <div class="contact-block">
+        <h4>Telefon</h4>
+        <p><a href="tel:+4972238008234" style="color:var(--c-wine);">+49 7223 8008234</a></p>
+      </div>
+      <div class="contact-block">
+        <h4>Öffnungszeiten</h4>
+        <ul class="hours" style="color:var(--c-ink);">
+          <li class="is-closed"><span style="color:var(--c-ink);">Montag</span><span style="color:var(--c-wine);">Ruhetag</span></li>
+          <li><span style="color:var(--c-ink);">Dienstag – Samstag</span><span style="color:var(--c-ink-soft);">17:30 – 22:00</span></li>
+          <li><span style="color:var(--c-ink);">Sonntag</span><span style="color:var(--c-ink-soft);">17:00 – 21:00</span></li>
+        </ul>
+        <p class="contact-hint" style="color:var(--c-wine);">Bei Fußballspielen des SV Vimbuch bewirten wir Sie ebenfalls.</p>
+      </div>
+      <a href="tel:+4972238008234" class="btn" style="margin-top:8px;">Jetzt anrufen &amp; reservieren</a>
+    </div>
+
+    <div class="map-card reveal">
+      <span class="map-pin">&#128205;</span>
+      <h4>So finden Sie uns</h4>
+      <p>Am Sportplatz 1<br />77815 Bühl-Vimbuch</p>
+      <a href="https://www.google.com/maps/dir/?api=1&amp;destination=Ristobello+im+Clubhaus+SV+Vimbuch%2C+Am+Sportplatz+1%2C+77815+B%C3%BChl-Vimbuch"
+         target="_blank" rel="noopener" class="btn">Route mit Google Maps</a>
+    </div>
   </div>
 
-  <div style="text-align:center;margin-top:50px;" class="reveal">
-    <p style="color:rgba(248,239,230,0.6);font-style:italic;margin-bottom:22px;">
-      Lust bekommen? Reservieren Sie Ihren Tisch oder bestellen Sie zum Mitnehmen.
+  <!-- IMPRESSUM -->
+  <div class="impressum reveal" id="impressum">
+    <h3>Impressum</h3>
+    <p>
+      Ristobello im Clubhaus SV Vimbuch<br />
+      Inhaber: Giuseppe Grillo<br />
+      Am Sportplatz 1, 77815 Bühl-Vimbuch<br />
+      Telefon: +49 7223 8008234
     </p>
-    <a href="kontakt.html" class="btn">Tisch reservieren</a>
+    <p>
+      Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV: Giuseppe Grillo, Anschrift wie oben.
+    </p>
+    <p style="font-size:14px;opacity:0.7;">
+      Hinweis: Diese Website dient zur Präsentation des Restaurants. Angaben zu
+      Gerichten und Preisen sind beispielhaft und ohne Gewähr.
+    </p>
   </div>
 </section>
 
@@ -108,6 +140,6 @@
   <span class="call-fab-text">Jetzt anrufen</span>
 </a>
 
-<script src="js/main.js?v=31"></script>
+<script src="js/main.js?v=30"></script>
 </body>
 </html>
