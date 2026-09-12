@@ -234,7 +234,7 @@ a { color: inherit; text-decoration: none; }
 .m-desc { color: var(--c-ink-soft); font-size: 16px; font-style: italic; margin: 0 0 20px; max-width: 80%; }
 .m-item .m-name .m-code { font-family: var(--font-ui); font-size: 11px; font-weight: 400; letter-spacing: 1px; color: rgba(30,20,17,0.42); vertical-align: super; margin-left: 3px; }
 
-/* ---------- Saison-Spezial (z. B. Pfifferlinge) ---------- */
+/* ---------- Saison-Spezial (aktuell: Muscheln) ---------- */
 .season-card {
   position: relative; overflow: hidden;
   background: linear-gradient(150deg, #241310 0%, #16100d 55%, #1f120e 100%);
@@ -264,6 +264,15 @@ a { color: inherit; text-decoration: none; }
   font-family: var(--font-display); font-weight: 600; font-size: clamp(17px,2.4vw,21px);
   color: #1b0f0b; background: var(--c-season); padding: 8px 22px;
 }
+/* Saison-Plakat (Bild aus Instagram/WhatsApp, zugeschnitten) */
+.season-poster {
+  position: relative; display: block; max-width: 440px; margin: 0 auto;
+  border: 1px solid rgba(230,164,64,0.55);
+  box-shadow: 0 22px 50px -18px rgba(0,0,0,0.75), 0 0 40px -16px rgba(230,164,64,0.45);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+.season-poster img { display: block; width: 100%; height: auto; }
+.season-poster:hover { transform: translateY(-4px); box-shadow: 0 28px 60px -18px rgba(0,0,0,0.8), 0 0 52px -14px rgba(230,164,64,0.6); }
 .season-grid { position: relative; display: grid; grid-template-columns: 1fr 1fr; gap: 24px; text-align: left; }
 .season-item { background: rgba(252,246,238,0.05); border: 1px solid rgba(230,164,64,0.3); padding: 26px 28px; }
 .season-item h4 {
